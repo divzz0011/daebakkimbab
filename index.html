@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Daebak Store</title>
+<link rel="stylesheet" href="style.css" />
+<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<header>
+  <h1>Daebak Kimbab</h1>
+  <p>Gulung Potong Makan, Kimbab Sehat Untuk Hidup Sehat</p>
+</header>
+
+<main>
+  <!-- Daftar Produk -->
+  <section class="products" id="product-list">
+    <!-- Produk akan di-render via JS -->
+  </section>
+</main>
+
+<!-- Tombol buka troli -->
+<button id="cart-toggle" class="cart-toggle-btn">🛒</button>
+
+<!-- Troli -->
+<section class="cart" id="cart-section">
+    <h2>Troli</h2>
+    <ul id="cart-items"></ul>
+    <p id="total-price">Total: Rp 0</p>
+    <div class="checkout-form">
+      <input type="text" id="buyer-name" placeholder="Nama">
+      <input type="text" id="buyer-address" placeholder="Alamat/Kelas">
+      <textarea id="buyer-note" placeholder="Catatan tambahan"></textarea>
+      <button id="checkout-btn">Checkout via WhatsApp</button>
+    </div>
+</section>
+
+<!-- Pop-up detail produk -->
+<div id="product-popup" class="popup">
+  <div class="popup-content">
+    <span class="close-btn">&times;</span>
+    <img id="popup-img" src="" alt="Product">
+    <h2 id="popup-name"></h2>
+    <p id="popup-price"></p>
+    <p id="popup-desc"></p>
+    <button id="add-to-cart-btn">Tambah ke Troli</button>
+  </div>
+</div>
+
+<footer>
+  <p>&copy; Daebak kimbab | Hubungi: <a href="https://wa.me/6285860606828" target="_blank">WhatsApp</a></p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
