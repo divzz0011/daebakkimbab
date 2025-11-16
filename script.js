@@ -1,5 +1,5 @@
 const products = [
-    {id:1,name:"Kimbab Original",price:20000,img:"images/kimbab1.jpg",desc:"Selain menyehatkan kimbab ini juga mengenyangkan karena di dalamnya berisi sayuran yang lezat dan juga segar dengan tambahkan sosis yang membuat rsanya semakin lezattt."},
+    {id:1,name:"Kimbab Original",price:13000,img:"images/kimbab1.jpg",desc:"Selain menyehatkan kimbab ini juga mengenyangkan karena di dalamnya berisi sayuran yang lezat dan juga segar dengan tambahkan sosis yang membuat rsanya semakin lezattt."},
 
   ];
   
@@ -135,4 +135,5 @@ const products = [
   });
   
   renderProducts();
+
   
